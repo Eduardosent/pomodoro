@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "pomodoro",
+    "slug": "pomodoro",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/tecnica-pomodoro.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/tecnica-pomodoro.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.eduardosent.pomodoro"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "33958a63-2ebb-4f8f-8d9f-4d2eba95a916"
+      }
+    }
+  }
+}
